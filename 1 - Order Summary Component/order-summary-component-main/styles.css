@@ -89,7 +89,14 @@ body {
 .change {
   border: none;
   background: none;
+  color: var(--brightBlue);
+  font-weight: 700;
+  text-decoration: underline;
 }
+.change:active {
+  color: hsla(245, 75%, 52%, 0.5);
+}
+
 .attribution {
   font-size: 11px;
   text-align: center;
@@ -101,6 +108,24 @@ body {
   color: hsl(228, 45%, 44%);
 }
 
+.payment {
+  width: 90%;
+  border: none;
+  background-color: var(--brightBlue);
+  border-radius: 10px;
+  padding: 10px 20px;
+  color: white;
+  font-weight: 700;
+  box-shadow: 0 0 4px 4px var(--paleBlue);
+}
+.cancel {
+  border: none;
+  background: none;
+  color: var(--desaturatedBlue);
+  border-radius: 10px;
+  padding: 20px;
+  font-weight: 700;
+}
 a {
   text-decoration: none;
 }
@@ -115,7 +140,7 @@ a {
 
   .card {
     width: 60vw;
-    height: 65vh;
+    height: 75vh;
   }
 
   .attribution {

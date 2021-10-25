@@ -1,14 +1,3 @@
-/*
-- Pale blue: hsl(225, 100%, 94%)
-- Bright blue: hsl(245, 75%, 52%)
-
-### Neutral
-
-- Very pale blue: hsl(225, 100%, 98%)
-- Desaturated blue: hsl(224, 23%, 55%)
-- Dark blue: hsl(223, 47%, 23%)
-*/
-
 :root {
   --paleBlue: hsl(225, 100%, 94%);
   --brightBlue: hsl(245, 75%, 52%);
@@ -56,19 +45,50 @@ body {
 }
 .title {
   font-weight: 900;
+  color: var(--darkBlue);
 }
 
 .description {
   text-align: center;
   padding: 0 20px;
+  color: var(--darkBlue);
 }
 
 .planContainer {
-  padding: 0 10px;
+  margin: 20px;
+  padding: 20px;
+  border-radius: 10px;
+  width: 80%;
   display: flex;
-  justify-content: space-between;
   align-items: center;
+  justify-content: space-between;
   background-color: var(--veryPaleBlue);
+}
+
+.planLeft {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.annualSection {
+}
+.annualSection p {
+  margin: 0 15px;
+  font-size: 14px;
+}
+.annualSection p:nth-child(1) {
+  font-weight: 900;
+  color: var(--darkBlue);
+}
+
+.annualSection p:nth-child(2) {
+  color: var(--desaturatedBlue);
+}
+
+.change {
+  border: none;
+  background: none;
 }
 .attribution {
   font-size: 11px;

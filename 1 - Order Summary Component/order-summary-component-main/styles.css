@@ -29,11 +29,40 @@ body {
   background-repeat: repeat-x;
   width: 100vw;
   height: 100vh;
-  /* position: absolute; */
-  top: 0;
-  left: 0;
-  z-index: -1;
   background-color: var(--paleBlue);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.card {
+  width: 20vw;
+  border-radius: 15px;
+  background-color: var(--veryPaleBlue);
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.img {
+  width: 100%;
+}
+
+.title {
+  font-weight: 900;
+}
+
+.description {
+  text-align: center;
+  padding: 0 20px;
+}
+
+.planContainer {
+  padding: 0 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 .attribution {
   font-size: 11px;

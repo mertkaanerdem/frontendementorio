@@ -93,9 +93,6 @@ body {
   font-weight: 700;
   text-decoration: underline;
 }
-.change:active {
-  color: hsla(245, 75%, 52%, 0.5);
-}
 
 .attribution {
   font-size: 11px;
@@ -126,6 +123,15 @@ body {
   padding: 20px;
   font-weight: 700;
 }
+
+.payment:active {
+  background-color: hsla(245, 75%, 52%, 0.5);
+}
+.change:active,
+.cancel:active {
+  color: hsla(245, 75%, 52%, 0.5);
+}
+
 a {
   text-decoration: none;
 }

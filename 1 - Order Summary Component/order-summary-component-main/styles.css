@@ -71,8 +71,6 @@ body {
   justify-content: space-between;
 }
 
-.annualSection {
-}
 .annualSection p {
   margin: 0 15px;
   font-size: 14px;
@@ -99,13 +97,14 @@ body {
   text-align: center;
   position: absolute;
   bottom: 0;
-  left: 45vw;
+  left: 43vw;
 }
 .attribution a {
   color: hsl(228, 45%, 44%);
 }
 
 .payment {
+  margin: 10px;
   width: 90%;
   border: none;
   background-color: var(--brightBlue);
@@ -145,7 +144,7 @@ a {
   }
 
   .card {
-    width: 60vw;
+    width: 90vw;
     height: 75vh;
   }
 
